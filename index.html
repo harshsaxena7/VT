@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Forever Valentine ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Music -->
+    <audio id="bg-music" autoplay loop>
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="heart-container"></div>
+
+    <header>
+        <nav>
+            <div class="logo-container">
+                <span id="logo-home" class="logo" style="cursor: pointer;">To My Love ❤️</span>
+                <span id="logo-back" class="logo" style="cursor: pointer; display: none;">← Back to Home ❤️</span>
+            </div>
+            <div class="nav-controls">
+                <div id="slideshow-controls" class="slideshow-controls" style="display: none; margin-right: 1rem;">
+                    <button id="prev-btn" class="btn-music">❮ Prev</button>
+                    <button id="next-btn" class="btn-music">Next ❯</button>
+                </div>
+                <button id="music-toggle" class="btn-music">🎵 Play Music</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home View -->
+        <div id="home-view">
+            <!-- Hero Section -->
+            <section id="hero" class="reveal">
+                <div class="hero-content">
+                    <h1>Happy Valentine's Day, My Love</h1>
+                    <p class="subtitle">A journey
+                        of our beautiful memories...</p>
+                    <div class="hero-actions">
+                        <a href="#gallery" class="btn-primary" style="text-decoration: none; margin-right: 1rem;">See
+                            Gallery</a>
+                        <button id="view-slideshow-btn" class="btn-primary"
+                            style="background: var(--accent-color); border: none;">View Slideshow ✨</button>
+
+                    </div>
+                    <div class="hero-scroll-indicator">Scroll Down 💖</div>
+                </div>
+            </section>
+
+            <!-- Memory Lane Gallery -->
+            <section id="gallery" class="reveal">
+                <h2>Our Memories</h2>
+                <div class="gallery-container">
+                    <!-- Gallery items will be injected via script.js -->
+                </div>
+            </section>
+
+            <!-- Our Love Journey Timeline -->
+            <section id="timeline" class="reveal">
+                <h2>Our Love Journey</h2>
+                <div class="timeline-wrapper">
+                    <div class="timeline-line-container">
+                        <div class="timeline-line" id="timeline-growth"></div>
+                    </div>
+
+                    <div class="timeline-item reveal left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>The Day We Met</h3>
+                            <p>Kartikey Told me You were looking at me and I believe him till this day, I remeber I
+                                explained you Electrovoltic eqaution, then at evening you your msg also came 😂 IK Its
+                                my Fanatasy story</p>
+                            <span class="timeline-date">December 9, 2021</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>When I proposed You</h3>
+                            <p>I was very nervous , shivering down my pants , scared of getting slapped , I took you to
+                                Faith centre whole speech memorized , bent on my knee then you said I LOVE YOU . I
+                                couldn't sleep that night , I was on cloud 9 </p>
+                            <span class="timeline-date">May 16, 2022</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="timeline-item reveal left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>Our First Date</h3>
+                            <p>We went to see Bhramastra that day , in that theater all I thought was kissing you but
+                                again i was so nervous , then we went to Rebound and I gifted you kisses and asked ifI
+                                can get this in real , IK it was so cheesy but it worked 😂 </p>
+                            <span class="timeline-date"> September 09, 2022</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>Our First Trip</h3>
+                            <p> We planned this trip in so muc scarcity , scared nervous and feared of not getting
+                                caught but after 2 vomits , nausea , 1000 photos , and 100000 memories we finally pulled
+                                of , it was a lifetime experience and dream and I got know so much about you about you
+                            </p>
+                            <span class="timeline-date"> March 08, 2023</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>When I Knew You Were The One</h3>
+                            <p>It wasn't one big moment, but a thousand little ones. I can't imagine a future without
+                                you. And from day one I am saying this ....Woh Sirf Meri Hai and I mean it</p>
+                            <span class="timeline-date">Today & Forever</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Poetry Section -->
+            <section id="poetry" class="reveal">
+                <h2> 2 Words for You</h2>
+                <div class="poetry-card card">
+                    <p class="poetry-text">
+                        "All my loney nights,
+                        I dreamed about you
+                        But not eyes closes but wide opened , you and me your beautiful face on chest ,
+                        Holding you in my arms
+                        This distance wont let me sleep , oh my love i know you dont know how much i love you ,
+                        I may not express but you are my world"
+                    </p>
+                </div>
+                <!-- <div class="poetry-card card">
+                    <p class="poetry-text">
+                        "Roses are red, violets are blue,<br>
+                        My life became vibrant because of you.<br>
+                        Every moment shared is a treasure untold,<br>
+                        A love story that never grows old."
+                    </p>
+                </div>
+            </section> -->
+
+                <!-- Qualities Section -->
+                <section id="qualities" class="reveal">
+                    <h2>Why I Love You</h2>
+                    <div class="qualities-grid">
+                        <div class="quality card">
+                            <span class="icon">✨</span>
+                            <h3>Your Kindness</h3>
+                            <p>The way you care for everyone around you makes my heart melt.</p>
+                        </div>
+                        <div class="quality card">
+                            <span class="icon">😊</span>
+                            <h3>Your Smile</h3>
+                            <p>It's the only sunshine I need on the cloudiest days.</p>
+                        </div>
+                        <div class="quality card">
+                            <span class="icon">💭</span>
+                            <h3>Your Thoughts</h3>
+                            <p>How you see the world is so beautiful and unique.</p>
+                        </div>
+                        <div class="quality card">
+                            <span class="icon">❤️</span>
+                            <h3>Your Support</h3>
+                            <p>You are my biggest cheerleader and my safest harbor.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Final Message -->
+                <section id="final-message" class="reveal">
+                    <div class="envelope-wrapper">
+                        <div class="envelope" id="envelope">
+                            <div class="flap"></div>
+                            <div class="letter">
+                                <div class="letter-text">
+                                    <h2>My Dearest Khaleesi,</h2>
+                                    <p>I love You and I cant say enough of it , You are my soulmate , my heart , my
+                                        everything , I cant imagine my life without you.
+                                        I m know I m not perfect boyfriend , I know I mess up sometimes , I know I hurt
+                                        you sometimes , I know I am careless all the time 😂but I promise I will try my
+                                        best to be the best boyfriend for you. I am sorry foe everytime I have hurt you
+                                        , for every time We had fight , for every time I have not been there for you , I
+                                        am sorry for everything.</p>
+                                    <p>Thank you for being exactly who you are. I can't wait for a lifetime of more
+                                        memories
+                                        together.</p>
+                                    <div class="romantic-signature">Yours Always, <br> Your Baby ❤️</div>
+                                </div>
+                            </div>
+                            <div class="heart-seal" id="open-envelope">❤️</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Wish Upon a Star Section -->
+                <section id="wish-sky" class="reveal">
+                    <div class="moon-container">
+                        <div class="moon" id="main-moon">
+                            <div id="moon-text-content">
+                                <h2 class="moon-title">Wish Upon a Star</h2>
+                                <p class="moon-instruction">Click a star to reveal a promise...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="starry-container">
+                        <!-- Stars will be injected here -->
+                    </div>
+                </section>
+
+                <footer>
+                    <p>For my Forever Khaleesi ❤️ </p>
+                </footer>
+        </div>
+
+        <!-- Gallery/Slideshow View -->
+        <div id="gallery-view" style="display: none;">
+            <div class="slideshow-container">
+                <div class="slideshow-wrapper">
+                    <!-- Slides will be injected via script.js -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz View (REMOVED) -->
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
